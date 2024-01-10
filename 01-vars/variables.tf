@@ -28,4 +28,15 @@ variable "sample-list" {
               100,true]
 }
 
+# Variable Dictionary: For a single variable, there are multiple values with each having individual names/index.
+
+variable "sample-dict" {
+  default =  {
+    fruit1 = "banana"
+    fruit2 = "apple"
+    number1 = 100
+    bool1 = true
+  }
+}
+
 

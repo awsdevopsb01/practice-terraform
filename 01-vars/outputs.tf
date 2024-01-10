@@ -15,7 +15,12 @@ output "list-output" {
   value = var.sample-list
 }
 
-#list default content
+#list content with individual value
 output "list-output-01" {
 value = var.sample-list[1]
+}
+
+#Dictionary content retrieval
+output "dict-output" {
+  value = var.sample-dict[fruit1]
 }
