@@ -22,5 +22,5 @@ value = var.sample-list[1]
 
 #Dictionary content retrieval
 output "dict-output" {
-  value = var.sample-dict[fruit1]
+  value = var.sample-dict["fruit1"]
 }
