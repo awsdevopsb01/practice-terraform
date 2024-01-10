@@ -34,3 +34,8 @@ output "env-output" {
 output "terra-tf-output" {
   value = var.num1
 }
+
+#Var Files - demo.auto.tfvars
+output "demo-auto-tf-output" {
+  value = var.trainer_name
+}

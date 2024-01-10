@@ -42,5 +42,7 @@ variable "sample-dict" {
 variable "env" {}
 #Terraform.tfvars - These are the var files that are loaded by terraform automatically when you run your infra (terraform apply/plan)
 variable "num1" {}
+# Auto.tfvars - These are the var files loaded by terraform by default and not required any explicit supply.
+variable "trainer_name" {}
 
 
