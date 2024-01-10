@@ -29,3 +29,8 @@ output "dict-output" {
 output "env-output" {
   value = var.env
 }
+
+#Var Files - terraform.tfvars
+output "terra-tf-output" {
+  value = var.num1
+}
