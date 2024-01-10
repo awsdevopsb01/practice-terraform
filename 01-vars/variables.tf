@@ -29,7 +29,7 @@ variable "sample-list" {
 }
 
 # Variable Dictionary: For a single variable, there are multiple values with each having individual names/index.
-
+# These are most preferred way in Terraform
 variable "sample-dict" {
   default =  {
     fruit1 = "banana"
@@ -38,5 +38,6 @@ variable "sample-dict" {
     bool1 = true
   }
 }
+
 
 
