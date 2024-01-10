@@ -5,13 +5,20 @@
 #2. String  (Characters/Alpha Numeric)
 #3. Numbers (Numbers (Integer + Decimal))
 
-variable "sample1" {
+variable "sample_string" {
   default="Hello"
 }
 
-output "sample1_output" {
-  value = var.sample1
+variable "sample_number" {
+  default=124
 }
 
-#Variable Types:
+variable "sample_bool" {
+  default=true
+}
+
+
+#Variable Types: Different kinds of variables that we can define in Terraform.
+
+
 
