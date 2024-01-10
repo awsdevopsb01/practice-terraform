@@ -24,3 +24,8 @@ value = var.sample-list[1]
 output "dict-output" {
   value = var.sample-dict["fruit1"]
 }
+
+#Var Files
+output "env-output" {
+  value = var.env
+}
