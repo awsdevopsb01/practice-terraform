@@ -9,3 +9,13 @@ output "number-output" {
 output "bool-output" {
   value = var.sample_bool
 }
+
+#list default content
+output "list-output" {
+  value = var.sample-list
+}
+
+#list default content
+output "list-output-01" {
+value = var.sample-list[1]
+}
