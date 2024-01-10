@@ -4,5 +4,5 @@ data "aws_security_group" "selected" {
 
 
 output "security-group-output" {
-  value = data.aws_security_group.selected
+  value = data.aws_security_group.selected.id
 }
