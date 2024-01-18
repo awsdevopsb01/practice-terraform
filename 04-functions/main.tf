@@ -19,6 +19,13 @@ output "test-ele" {
 
 #Searching a value in a variable/data structure
 
+variable "fruits" {
+  default = {
+    apple = 10
+    banana = 20
+    pineapple =30
+  }
+}
 output "disp-lookup" {
-  value = lookup(var.test1,"b2","not found" )
+  value = lookup(var.fruits,"b2","not found" )
 }
