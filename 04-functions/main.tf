@@ -16,3 +16,9 @@ variable "test1" {
 output "test-ele" {
   value = element(var.test1,0)
 }
+
+#Searching a value in a variable/data structure
+
+output "disp-lookup" {
+  value = lookup(var.test1,"b2","not found" )
+}
