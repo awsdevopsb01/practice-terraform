@@ -27,5 +27,5 @@ variable "fruits" {
   }
 }
 output "disp-lookup" {
-  value = lookup(var.fruits,"b2","not found" )
+  value = lookup(var.fruits,"apple","not found" )
 }
