@@ -5,5 +5,5 @@ module "sample" {
 
 module "dummy" {
   source = "./module2"
-  input=module.dummy.test-input
+  input_from=module.dummy.test-input
 }
