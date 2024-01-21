@@ -1,3 +1,3 @@
 output "test-input" {
-  value = "fruit"
+  value = "apple"
 }
