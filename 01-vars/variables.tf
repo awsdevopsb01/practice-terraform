@@ -20,7 +20,8 @@ variable "sample_bool" {
 
 #Variable Types: Different kinds of variables that we can define in Terraform.
 # List variable type
-# In list variable - All Strings/sentences should be in double quotes. Numbers/boolean don't require quotes.
+# In list variable - All Strings/sentences should be in double quotes.
+# Numbers/boolean don't require quotes.
 
 variable "sample-list" {
   default = ["banana",
@@ -39,9 +40,12 @@ variable "sample-dict" {
   }
 }
 
+
 variable "env" {}
-#Terraform.tfvars - These are the var files that are loaded by terraform automatically when you run your infra (terraform apply/plan)
+#Terraform.tfvars - These are the var files that are loaded by terraform automatically when you run
+#your infra (terraform apply/plan)
 variable "num1" {}
+
 # Auto.tfvars - These are the var files loaded by terraform by default and not required any explicit supply.
 variable "trainer_name" {}
 
